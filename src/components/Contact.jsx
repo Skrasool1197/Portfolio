@@ -121,6 +121,8 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+        <p className='text-white font-medium mt-4'>Give me a call at:</p>
+        <p className='text-white font-medium'>+91 8767598908</p>
       </motion.div>
 
       <motion.div
