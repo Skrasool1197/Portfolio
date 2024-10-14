@@ -40,18 +40,20 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm an AI/ML Developer specializing in creating intelligent solutions 
+        with Python and cutting-edge frameworks like LangChain and Streamlit. 
+        With hands-on experience in generative AI, I transform complex challenges 
+        into innovative applications. I enjoy collaborating with others and am enthusiastic 
+        about using technology to create significant change. 
+        Let's explore how we can innovate together!
+
       </motion.p>
 
       <div className="mt-20 flex flex-wrap justify-center gap-10">
