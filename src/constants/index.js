@@ -139,10 +139,10 @@ const experiences = [
     iconBg: "#000000",
     date: "May 2024 - August 2024",
     points: [
-      "Designing and implementing intelligent AI solutions that enhance user experiences and drive efficiency.",
-      "Collaborating with multidisciplinary teams to transform innovative concepts into impactful machine learning applications.",
-      "Utilizing advanced frameworks like LangChain and Streamlit to develop and deploy robust AI-driven tools.",
-      "Conducting thorough testing and evaluation of models to ensure optimal performance and reliability in real-world scenarios.",
+      "Designed and implemented intelligent AI solutions that enhanced user experiences and drove efficiency.",
+      "Collaborated with multidisciplinary teams to transform innovative concepts into impactful machine learning applications.",
+      "Utilized advanced frameworks like LangChain and Streamlit to develop and deploy robust AI-driven tools.",
+      "Conducted thorough testing and evaluation of models to ensure optimal performance and reliability in real-world scenarios.",
     ],
   },
   {
