@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  seg,
+  summarize,
+  vext, 
+  textimage,
 } from "../assets";
 
 export const navLinks = [
@@ -252,7 +256,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: vext,
     source_code_link: "https://github.com/Skrasool1197/Vext-API-Interaction-Tool",
   },
   {
@@ -273,7 +277,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: textimage,
     source_code_link: "https://github.com/Skrasool1197/Text-to-Image-Using-Google-AI",
   },
   {
@@ -294,7 +298,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: summarize,
     source_code_link: "https://github.com/Skrasool1197/Text-Summarization",
   },
   {
@@ -311,7 +315,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tripguide,
+    image: seg,
     source_code_link: "https://github.com/Skrasool1197/Customer-Segmentation-Using-Clustering",
   },
   {
