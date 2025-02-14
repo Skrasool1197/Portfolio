@@ -19,6 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
+  krtri,
   carrent,
   jobit,
   tripguide,
@@ -41,6 +42,10 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    id: "resume",
+    title: "Resume",
   },
 ];
 
@@ -121,6 +126,21 @@ const technologies = [
 
 const experiences = [
   {
+    title: "AI Intern",
+    company_name: "krtrimaIQ Cognitive Solutions",
+    icon: krtri,  // Changed from shopify to krtri
+    iconBg: "#E6DEDD",
+    date: "November 2024 - Present",
+    points: [
+      "Fine-tuned Indic language models and integrated Speech-to-Speech & Web-based Translation.",
+      "Implemented temporary chat sessions, automatic database uploads, and duplicate file prevention.",
+      "Applied guardrails for user interactions and enabled intelligent image search for non-database entries.",
+      "Reduced response time from 17 to 12 seconds by optimizing backend processes.",
+      "Currently working on enhancing model efficiency and expanding translation capabilities."
+    ],
+  },
+
+  {
     title: "Research Intern",
     company_name: "Indian Institute of Information Technology, Kancheepuram",
     icon: meta,
@@ -150,7 +170,7 @@ const experiences = [
     company_name: "Bharat Intern",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2024 - Feb 2024",
+    date: "January 2024 - February 2024",
     points: [
       "Applied machine learning algorithms, including Regression and Classification, for dataset analysis.",
       "Collaborated with teams to generate actionable insights from data.",

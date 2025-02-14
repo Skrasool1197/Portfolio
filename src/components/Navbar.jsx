@@ -56,9 +56,22 @@ const Navbar = () => {
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+              onClick={() => nav.id === "resume" ? null : setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              {nav.id === "resume" ? (
+                <a
+                  href="https://drive.google.com/file/d/19aU3u1vGUOGB4ZVlROeUe81V6kKQ-YPw/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`${
+                    active === nav.title ? "text-white" : "text-secondary"
+                  } hover:text-white`}
+                >
+                  {nav.title}
+                </a>
+              ) : (
+                <a href={`#${nav.id}`}>{nav.title}</a>
+              )}
             </li>
           ))}
         </ul>
@@ -85,10 +98,23 @@ const Navbar = () => {
                   }`}
                   onClick={() => {
                     setToggle(!toggle);
-                    setActive(nav.title);
+                    nav.id === "resume" ? null : setActive(nav.title);
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  {nav.id === "resume" ? (
+                    <a
+                      href="https://drive.google.com/file/d/19aU3u1vGUOGB4ZVlROeUe81V6kKQ-YPw/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`${
+                        active === nav.title ? "text-white" : "text-secondary"
+                      } hover:text-white`}
+                    >
+                      {nav.title}
+                    </a>
+                  ) : (
+                    <a href={`#${nav.id}`}>{nav.title}</a>
+                  )}
                 </li>
               ))}
             </ul>
