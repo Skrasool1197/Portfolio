@@ -26,6 +26,9 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import krtri from "./company/krtri.png";
+import SE from "./company/SE.jpg";
+import SE1 from "./company/SE1.png";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -69,4 +72,6 @@ export {
   vext, 
   textimage,
   krtri,
+  SE,
+  SE1
 };

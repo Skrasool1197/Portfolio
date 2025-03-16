@@ -20,6 +20,7 @@ import {
   tesla,
   shopify,
   krtri,
+  SE,
   carrent,
   jobit,
   tripguide,
@@ -28,6 +29,7 @@ import {
   summarize,
   vext, 
   textimage,
+  SE1,
 } from "../assets";
 
 export const navLinks = [
@@ -125,18 +127,16 @@ const technologies = [
 ];
 
 const experiences = [
+
   {
-    title: "AI Intern",
-    company_name: "krtrimaIQ Cognitive Solutions",
-    icon: krtri,  // Changed from shopify to krtri
+    title: "AI/ML Intern",
+    company_name: "NetZero Sustainability Economics India Private Limited",
+    icon: SE1, // You'll need to import this
     iconBg: "#E6DEDD",
-    date: "November 2024 - Present",
+    date: "February 2025 - Present",
     points: [
-      "Fine-tuned Indic language models and integrated Speech-to-Speech & Web-based Translation.",
-      "Implemented temporary chat sessions, automatic database uploads, and duplicate file prevention.",
-      "Applied guardrails for user interactions and enabled intelligent image search for non-database entries.",
-      "Reduced response time from 17 to 12 seconds by optimizing backend processes.",
-      "Currently working on enhancing model efficiency and expanding translation capabilities."
+      "Researching on vertical LLMs for sustainable development.",
+      "Working on agentic system for green financing. ",
     ],
   },
 
@@ -152,6 +152,21 @@ const experiences = [
       "Investigating innovative approaches to improve accuracy and efficiency in flow measurement applications.",
     ],
   },
+
+  {
+    title: "AI Intern",
+    company_name: "krtrimaIQ Cognitive Solutions",
+    icon: krtri,  // Changed from shopify to krtri
+    iconBg: "#E6DEDD",
+    date: "November 2024 - February 2025",
+    points: [
+      "Fine-tuned Indic language models and integrated Speech-to-Speech & Web-based Translation.",
+      "Implemented temporary chat sessions, automatic database uploads, and duplicate file prevention.",
+      "Applied guardrails for user interactions and enabled intelligent image search for non-database entries.",
+      "Reduced response time from 17 to 12 seconds by optimizing backend processes.",
+    ],
+  },
+
   {
     title: "AI/ML Developer",
     company_name: "Alorb Technologies",
@@ -191,6 +206,7 @@ const experiences = [
       "Developed proficiency in software tools such as ImageJ, Microsoft Visio, and MATLAB for data analysis and visualization.",
     ],
   },
+
 
 ];
 
