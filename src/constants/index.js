@@ -129,14 +129,18 @@ const technologies = [
 const experiences = [
 
   {
-    title: "AI/ML Intern",
-    company_name: "NetZero Sustainability Economics India Private Limited",
+    title: "AI-ML Intern",
+    company_name: " Sustainability Economics.ai",
     icon: SE1, // You'll need to import this
     iconBg: "#E6DEDD",
     date: "February 2025 - Present",
     points: [
-      "Researching on vertical LLMs for sustainable development.",
-      "Working on agentic system for green financing. ",
+ "Develop modular ML optimization workflows to optimize hybrid energy systems (solar, wind, battery, grid) based on cost, tariffs, and dispatch logic.",
+ "Integrate simulation and optimization in Python for multi-scenario energy planning.",
+ "Build scalable microservices using FastAPI, Redis, and AWS SQS for asynchronous job processing.",
+ "Create dynamic configuration pipelines to automate model triggering and fetch real-time data from 5+ sources.",
+ "Automate output delivery via GZIP-compressed messaging, improving transfer speed by 40% in distributed systems.",
+ "Optimize ETL pipelines for high-volume time series and electricity bill data using LangGraph."
     ],
   },
 
@@ -145,12 +149,12 @@ const experiences = [
     company_name: "Indian Institute of Information Technology, Kancheepuram",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "August 2024 - Present",
+    date: "August 2024 - March 2025",
     points: [
-      "Applying artificial neural networks to enhance multiphase flow metering techniques.",
-      "Focusing on optimizing flow measurement for gas-liquid two-phase systems using advanced machine learning models.",
-      "Investigating innovative approaches to improve accuracy and efficiency in flow measurement applications.",
-    ],
+      "Applied artificial neural networks to enhance multiphase flow metering techniques for gas-liquid two-phase systems.",
+      "Developed and optimized machine learning models to improve the accuracy and efficiency of flow measurement.",
+      "Explored and validated innovative ML-based approaches to solve real-world challenges in fluid dynamics and multiphase flow measurement.",
+      ],
   },
 
   {
@@ -168,7 +172,7 @@ const experiences = [
   },
 
   {
-    title: "AI/ML Developer",
+    title: "AI-ML Intern",
     company_name: "Alorb Technologies",
     icon: starbucks,
     iconBg: "#000000",

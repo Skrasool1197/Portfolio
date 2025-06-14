@@ -62,7 +62,7 @@ const Navbar = () => {
                 <a
                   // href="https://drive.google.com/file/d/19aU3u1vGUOGB4ZVlROeUe81V6kKQ-YPw/view?usp=sharing"
                   
-                  href = "https://drive.google.com/file/d/1WTDqb4gf97sBuHJX1KAYLsMRZOwVzdv-/view?usp=sharing"
+                  href = "https://drive.google.com/file/d/1QT8T3-MjRxdvA11cn7pp4SAiF_9DT536/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`${
@@ -106,7 +106,7 @@ const Navbar = () => {
                   {nav.id === "resume" ? (
                     <a
                       // href="https://drive.google.com/file/d/19aU3u1vGUOGB4ZVlROeUe81V6kKQ-YPw/view?usp=sharing"
-                      href = "https://drive.google.com/file/d/1WTDqb4gf97sBuHJX1KAYLsMRZOwVzdv-/view?usp=sharing"
+                      href = "https://drive.google.com/file/d/1QT8T3-MjRxdvA11cn7pp4SAiF_9DT536/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                       className={`${
